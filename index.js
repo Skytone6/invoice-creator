@@ -23,7 +23,7 @@ let renderNotes = () => {
 
 //Display Total Amount//
 let renderAmt = () => {
-    totalAmounts.innerHTML = amount;
+    totalAmounts.innerHTML = "$" + amount;
 }
 
 //Reset Invoice//
