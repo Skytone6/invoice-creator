@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0%;
+    background-color: rgba(17, 24, 39, 1);
+    color:rgba(245, 245, 245, 1);
+    text-align: center;
+}
+
+h1 {
+    margin: 10px auto;
+    font-size: 2.5em;    
+}
+
+p {
+    margin: 0%;
+    font-size: 1em;
+}
+
+#inv-cont {
+    width: 550px;
+    height: 730px;
+    background-color: rgba(31, 41, 55, 1);
+    border: 10px solid rgba(255, 255, 255, 1);
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#comp-title {
+    background-color: rgba(58, 105, 210, 1);
+    color: rgba(255, 255, 255, 1);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+#task button {
+    background-color: rgba(209, 212, 244, 1);
+    color: rgba(74, 78, 116, 1);
+    border: none;
+    border-radius: 7px;
+    margin: 0px 10px;
+    padding: 12px;
+    width: 26%;
+}
+
+.cont-align {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 0px auto 10px;
+    font-size: 1em;
+}
+
+#selected-task{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px auto;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+span {
+    margin-left: 20px;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+#line-br{
+    width: 85%;
+    margin: 25px auto 10px;
+    border: 1px solid rgba(195, 198, 219, 1);
+}
+
+#total {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0px auto;
+}
+
+#total .cont-align {
+    width: 100%;
+}
+
+#pay-options{
+    font-size: 0.9em;
+}
+
+#total-amt{
+    font-weight: bold;
+    font-size: 2em;
+    color: rgba(245, 245, 245, 1);
+    margin: 0px 0px 50px;
+}
+
+#send-invoice {
+    background-color: rgba(58, 105, 210, 1);
+    border: none;
+    border-radius: 7px;
+    margin: 10px 0px;
+    color:rgba(255, 255, 255, 1);
+    padding: 10px 20px;
+    font-size: 1em;
+}
+
+img{
+    margin-right: 10px;
+}
